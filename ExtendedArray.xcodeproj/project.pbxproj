@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F8C95DD61A94F6BE0028E9DE /* ExtendedArray.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C95DCA1A94F6BE0028E9DE /* ExtendedArray.framework */; };
+		F8EDD5551A94F98E005B6173 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EDD5541A94F98E005B6173 /* Sequence.swift */; };
+		F8EDD5571A94FC2C005B6173 /* CatOptionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EDD5561A94FC2C005B6173 /* CatOptionals.swift */; };
+		F8EDD5581A94FCB6005B6173 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EDD5541A94F98E005B6173 /* Sequence.swift */; };
+		F8EDD5591A94FCB7005B6173 /* CatOptionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EDD5561A94FC2C005B6173 /* CatOptionals.swift */; };
+		F8EDD55B1A94FD54005B6173 /* SequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EDD55A1A94FD54005B6173 /* SequenceTests.swift */; };
+		F8EDD55C1A94FD54005B6173 /* SequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EDD55A1A94FD54005B6173 /* SequenceTests.swift */; };
+		F8EDD55E1A950B32005B6173 /* CatOptionalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EDD55D1A950B32005B6173 /* CatOptionalsTests.swift */; };
+		F8EDD55F1A950B32005B6173 /* CatOptionalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EDD55D1A950B32005B6173 /* CatOptionalsTests.swift */; };
 		F8F26BB41A94F6FA00F0BC66 /* ExtendedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F26BB21A94F6FA00F0BC66 /* ExtendedArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8F26BCA1A94F77200F0BC66 /* ExtendedArray.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F26BBF1A94F77100F0BC66 /* ExtendedArray.framework */; };
 /* End PBXBuildFile section */
@@ -32,6 +40,10 @@
 /* Begin PBXFileReference section */
 		F8C95DCA1A94F6BE0028E9DE /* ExtendedArray.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExtendedArray.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C95DD51A94F6BE0028E9DE /* ExtendedArray-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExtendedArray-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8EDD5541A94F98E005B6173 /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		F8EDD5561A94FC2C005B6173 /* CatOptionals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatOptionals.swift; sourceTree = "<group>"; };
+		F8EDD55A1A94FD54005B6173 /* SequenceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceTests.swift; sourceTree = "<group>"; };
+		F8EDD55D1A950B32005B6173 /* CatOptionalsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatOptionalsTests.swift; sourceTree = "<group>"; };
 		F8F26BB21A94F6FA00F0BC66 /* ExtendedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendedArray.h; sourceTree = "<group>"; };
 		F8F26BB31A94F6FA00F0BC66 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8F26BB81A94F70900F0BC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				F8F26BB11A94F6FA00F0BC66 /* Resources */,
+				F8EDD5541A94F98E005B6173 /* Sequence.swift */,
+				F8EDD5561A94FC2C005B6173 /* CatOptionals.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -133,6 +147,8 @@
 		F8F26BB91A94F70900F0BC66 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				F8EDD55A1A94FD54005B6173 /* SequenceTests.swift */,
+				F8EDD55D1A950B32005B6173 /* CatOptionalsTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -372,6 +388,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8EDD5571A94FC2C005B6173 /* CatOptionals.swift in Sources */,
+				F8EDD5551A94F98E005B6173 /* Sequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +397,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8EDD55E1A950B32005B6173 /* CatOptionalsTests.swift in Sources */,
+				F8EDD55B1A94FD54005B6173 /* SequenceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +406,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8EDD5591A94FCB7005B6173 /* CatOptionals.swift in Sources */,
+				F8EDD5581A94FCB6005B6173 /* Sequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +415,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8EDD55F1A950B32005B6173 /* CatOptionalsTests.swift in Sources */,
+				F8EDD55C1A94FD54005B6173 /* SequenceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +592,7 @@
 		F8C95DE41A94F6BE0028E9DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -579,12 +604,14 @@
 				INFOPLIST_FILE = Tests/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F8C95DE51A94F6BE0028E9DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -647,6 +674,7 @@
 		F8F26BD61A94F77200F0BC66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -662,12 +690,14 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F8F26BD71A94F77200F0BC66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";

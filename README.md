@@ -33,3 +33,34 @@ I guess you could do it this way if that's your thing.
 
 Add this repo as a submodule, and add the project file to your workspace. You
 can then link against `ExtendedArray.framework` for your application target.
+
+## What's Included
+
+`ExtendedArray` introduces 2 new functions to help with Array manipulation:
+
+```swift
+/**
+    Return an array of the unwrapped .Some values from an array
+
+    This will unwrap any values that are .Some, and strip out any values that
+    are .None
+
+    :param: xs An array of optional values
+
+    :returns: An array of unwrapped optional values
+*/
+public func catOptionals<T>(xs: [T?]) -> [T] { // snip }
+
+/**
+    Return an array (wrapped in .Some) of values if all values contained by
+    the array are also .Some
+
+    Otherwise, if any value inside the provided array is .None, this will
+    return .None
+
+    :param: xs An array of optional values
+
+    :returns: An optional array of values
+*/
+public func sequence<T>(xs: [T?]) -> [T]? { // snip }
+```
