@@ -9,6 +9,10 @@
 */
 public func sequence<T>(xs: [T?]) -> [T]? {
     return reduce(xs, []) { accum, elem in
-        return accum.map { xs in elem.map { xs + [$0] } }?
+        if let x = elem, xs = accum {
+            return xs + [x]
+        }
+
+        return .None
     }
 }
