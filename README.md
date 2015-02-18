@@ -4,6 +4,10 @@ Functional additions for Swift's built in Array type
 
 ## Installation
 
+Note that `master` is currently source compatible with Swift 1.2, but not 1.1.
+If you need 1.1 support, see the `swift-1.1` branch, and the 1.0.x series of
+releases.
+
 ### [Carthage]
 
 [Carthage]: https://github.com/Carthage/Carthage
